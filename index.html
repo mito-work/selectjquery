@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form class="js-filter-form list_checkbox">
+        <label><input type="checkbox" name="year" value="18年度" checked>2018年度</label>
+        <label><input type="checkbox" name="year" value="19年度" checked>2019年度</label>
+        <label><input type="checkbox" name="year" value="20年度" checked>2020年度</label>
+    </form>
+
+    <table class="js-filter-items">
+        <thead>
+            <tr>
+                <td>年度</td>
+                <td>チーム名</td>
+                <td>タイトル</td>
+                <td>概要</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr data-cat="18年度">
+                <td>18年度</td>
+                <td>チームりんご</td>
+                <td>りんごの育て方</td>
+                <td>りんごの育て方について詳しく解説します。</td>
+            </tr>
+            <tr data-cat="18年度">
+                <td>18年度</td>
+                <td>チームみかん</td>
+                <td>みかんの育て方</td>
+                <td>みかんの育て方について詳しく解説します。</td>
+            </tr>
+            <tr data-cat="19年度">
+                <td>19年度</td>
+                <td>チームバナナ</td>
+                <td>バナナの育て方</td>
+                <td>バナナの育て方について詳しく解説します。</td>
+            </tr>
+            <tr data-cat="20年度">
+                <td>20年度</td>
+                <td>チームざくろ</td>
+                <td>ざくろの育て方</td>
+                <td>ざくろの育て方について詳しく解説します。</td>
+            </tr>
+            <tr data-cat="20年度">
+                <td>20年度</td>
+                <td>チームざくろ</td>
+                <td>ざくろの育て方</td>
+                <td>ざくろの育て方について詳しく解説します。</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script text="text/javascript" src="./script3.js"></script>
+</body>
+</html>
